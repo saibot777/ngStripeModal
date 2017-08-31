@@ -1,10 +1,10 @@
-import { NgStripeModalPage } from './app.po';
+import { AnimationsPage } from './app.po';
 
-describe('ng-stripe-modal App', () => {
-  let page: NgStripeModalPage;
+describe('animations App', () => {
+  let page: AnimationsPage;
 
   beforeEach(() => {
-    page = new NgStripeModalPage();
+    page = new AnimationsPage();
   });
 
   it('should display message saying app works', () => {

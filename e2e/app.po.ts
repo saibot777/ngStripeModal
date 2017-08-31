@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class NgStripeModalPage {
+export class AnimationsPage {
   navigateTo() {
     return browser.get('/');
   }

@@ -1,53 +1,74 @@
 
+
 .container {
     margin: 0 auto;
-    max-width: 500px;
-    padding-top: 65px;
+    max-width: 350px;
+    padding-top:65px;
 }
-
-/deep/ .auth-modal .modal-body {
-    min-width: 300px;
-}
-
 
 label {
-    width: 100px;
-    text-align: right;
+    display: block;
+    margin-top: 15px;
+
 }
 
-.form-row {
-    width: 500px;
-    margin-bottom: 10px;
+.form-input {
+    display: block;
+    border-radius: 4px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: "Courier", serif;
+    width:250px;
+    margin-bottom: 15px;
+    border: 2px solid darkgray;
+    padding: 5px 10px 5px 10px;
+}
+
+
+input::-ms-clear {
+    display: none;
 }
 
 .form-field {
-    margin-bottom: 5px;
+    display: block;
+    margin-bottom: 10px;
 }
 
-
-
-input /deep/ {
-  max-width: 120px;
+.form-field label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 5px;
 }
 
-.normal-input {
-    width: 150px;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 50px;
+.modal-button {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    color: white;
+    background: #1976d2;
+    font-weight: bold;
+    outline: none;
 }
 
 .modal-buttons {
-    margin-top: 20px;
-    margin-left: 50px;
+    padding: 0 20px;
 }
 
 
 
+.modal-buttons button {
+    border-radius: 4px;
+    color: white;
+    background: #1976d2;
+    width: 100px;
 
+}
+
+.payment-form {
+    margin-bottom: 15px;
+}
 
 
 
