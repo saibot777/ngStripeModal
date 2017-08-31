@@ -4,21 +4,23 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { FaInputComponent } from './lib/fa-input/fa-input.component';
-import { MdInputComponent } from './lib/md-input/md-input.component';
-import { InputRefDirective } from 'app/lib/common/input-ref.directive';
+import {AuInputModule} from 'au-input';
+import {AuTabPanelModule} from "au-tab-panel";
+import {AuModalModule} from "./au-modal/au-modal.module";
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    FaInputComponent,
-    MdInputComponent,
-    InputRefDirective
+    AppComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AuInputModule,
+    AuTabPanelModule,
+    AuModalModule.forRoot()
+
   ],
   providers: [],
   bootstrap: [AppComponent]
