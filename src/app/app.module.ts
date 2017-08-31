@@ -5,11 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { FaInputComponent } from './lib/fa-input/fa-input.component';
+import { MdInputComponent } from './lib/md-input/md-input.component';
+import { InputRefDirective } from 'app/lib/common/input-ref.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FaInputComponent
+    FaInputComponent,
+    MdInputComponent,
+    InputRefDirective
   ],
   imports: [
     BrowserModule,
